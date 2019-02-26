@@ -24,6 +24,7 @@ public class ProjetoConvidadosApplication implements CommandLineRunner {
 		Convidado c = new Convidado(null, "José", true);
 		
 		convidadoRepository.save(c);
+		System.out.println("Salvo com sucesso!");
 		
 	}
 
